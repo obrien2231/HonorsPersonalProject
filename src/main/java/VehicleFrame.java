@@ -18,11 +18,19 @@ public class VehicleFrame implements Chassis{
     this.vehicleFrameType = vehicleFrameType;
   }
   public String toString() {
-    return "Chassis " + Chassis.CHASSIS
-        + "Vehicle Frame " + vehicleFrameType;
+    return "Chassis             : " + Chassis.CHASSIS + "\n"
+        +  "Vehicle Frame       : " + vehicleFrameType;
   }
 
   public static void main(String[] args) {
+    VehicleFrame testvf1 = new VehicleFrame();
+    System.out.println(testvf1);
+
+
+    VehicleFrame testvf2 = new VehicleFrame("Ladder Frame");
+    System.out.println(testvf2);
+
+
 
   }
 }
