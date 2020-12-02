@@ -20,19 +20,36 @@ public class Car extends Vehicle {
     this.carAxle = carAxle;
   }
 
-  public String getFeatures() {
+  public String getInteriorFeatures() {
     String featuresListed = "";
     if(feature[0] != null){
     for (int k = 0; k < feature.length; k++) {
+      if(feature[k] instanceof InteriorFeature){
       if (featuresListed.length() == 0) {
         featuresListed += "\n" + this.feature[k];
       } else {
         featuresListed += this.feature[k];
       }
-    }
+    }}
     }else {
       featuresListed += "\n" + "Interior [No Interior Features]"+
       "\n"+ "Exterior [No Exterior Features]"+"\n";
+    }
+    return featuresListed;
+  }
+
+  public String getExteriorFeatures() {
+    String featuresListed = "";
+    if(feature[0] != null){
+      for (int k = 0; k < feature.length; k++) {
+        if(feature[k] instanceof ExteriorFeature){
+          if (featuresListed.length() == 0) {
+            featuresListed += this.feature[k];
+          } else {
+            featuresListed += this.feature[k];
+          }
+        }
+      }
     }
     return featuresListed;
   }
@@ -42,7 +59,8 @@ public class Car extends Vehicle {
     public String toString () {
       return super.toString() +
           "Features : " +
-          getFeatures() +
+          getInteriorFeatures() +
+          getExteriorFeatures() +
           "Car Axle : " + carAxle;
     }
   }
