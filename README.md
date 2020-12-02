@@ -1,6 +1,6 @@
 # HonorsPersonalProject
 
-![Proof of [passing Repl.it Car Test](CarTestPassed.JPG)
+![Proof of passing Repl.it Car Test](CarTestPassed.JPG)
 
 I will be completing the OOP Car Program for my honors personal project. I chose this over the others because I think it will be good practices, as well as a way to further my skill in java. This program has a total of 10 steps, and I intend to complete one a week. I will update my progress to show what steps I have completed.
 
