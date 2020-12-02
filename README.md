@@ -1,4 +1,7 @@
 # HonorsPersonalProject
+As I have finished my honors personal project, I really enjoyed the experience of it. It allowed me to fundamentally gain more experience and practice with interfaces and other elements of java. As I have finished the requirments for what is due this semester, I look forward to continually improving this project. My new goal over winter break is to turn the project into a GUI project, with a database system. Then going back through my code and formatting, as well as providing correct javadoc commenting.
+
+Below you will find proof of my repl.it test being passed. Then below that picture you will find my original read me, as well as the log of my orginal timeline for completing parts of this project.
 
 ![Proof of passing Repl.it Car Test](CarTestPassed.JPG)
 
